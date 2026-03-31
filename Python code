@@ -1,0 +1,8 @@
+salary = int(input("enter your salary amount  : "))
+gst = 0.18
+pf = salary*(0.2,0.1) [salary <= 21000]
+gst = salary*(0.18,0) [salary <= 100000]
+total = salary - (gst+pf)
+print("PF Amount:",pf)
+print("Gst Amount:",gst )
+print("After Dedicaiton Total Salary :", total)
